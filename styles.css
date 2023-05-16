@@ -1,0 +1,42 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand img {
+    width: 146px;
+    height: 60px;
+}
+
+.header {
+    background: linear-gradient(94.59deg, #FFE55B 2.39%, #A88237 97.66%);
+    border-radius: 0px 0px 70px 0px;
+    padding: 28px 63px;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #16161D;
+}
+
+@media only screen and ( max-width: 980px ) {
+    .header {
+        background: linear-gradient(94.59deg, #A88237 2.39%, #FFE55B 97.66%);
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        gap: 80px;
+    }
+}
