@@ -1,20 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
-}
-.navbar-brand img {
-    width: 146px;
-    height: 60px;
-}
-
-.header {
-    background: linear-gradient(94.59deg, #FFE55B 2.39%, #A88237 97.66%);
-    border-radius: 0px 0px 70px 0px;
-    padding: 28px 63px;
-}
-
-.navbar-brand {
-    padding: 0;
-    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .nav-link {
@@ -29,14 +14,347 @@ body {
     color: #16161D;
 }
 
-@media only screen and ( max-width: 980px ) {
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand img {
+    width: 73px;
+    height: 30px;
+}
+
+h1.text-body-emphasis {
+    color: #FFFFFF!important;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 14px;
+}
+
+.header {
+    background: linear-gradient(94.59deg, #FFE55B 2.39%, #A88237 97.66%);
+    border-radius: 0px 0px 35px 0px;
+    padding: 14px;
+}
+
+.header p,
+.about-us p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.navbar-toggler {
+    padding: 0.25em 0.25em;
+    font-size: 1.15em;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 1px;
+}
+
+.text-center {
+    margin-top: 50px;
+    color:#FFFFFF;
+}
+
+.header-btn-group {
+    margin-bottom: 12px;
+    flex-direction: column;
+    width: 70%;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .btn-primary {
+    margin-right: 0;
+}
+
+.btn-primary {
+    background: #16161D;
+    border-radius: 12px;
+    border-color: #16161D;
+}
+
+.btn-outline-secondary,
+:not(.btn-check)+.btn:active {
+    border-radius: 12px;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.btn:hover,
+.btn:first-child:active {
+    background-color: #313131;
+    border-color: #313131;
+}
+
+.btn-primary, 
+.btn-outline-secondary {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 8px 18px;
+}
+
+.rect-shape,
+.rect-outline {
+    width: 175px;
+    height: 225px;
+    border-radius: 125px 125px 10px 10px;
+}
+
+.rect-shape {
+    background: #E8D25E;
+    position: relative;
+}
+
+.rect-outline {
+    position: absolute;
+    width: 186px;
+    left: 6px;
+    bottom: 2px;
+    border: 3px solid #A88237;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rect-outline img {
+    width: 164px;
+    height: 160px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #A88237;
+}
+
+.about-us p {
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+.main {
+    margin: 20px auto 0;
+}
+
+.header .container-fluid {
+    padding: 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.about-us > .row div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn:hover,
+.btn:first-child:active {
+    background-color: #313131;
+    border-color: #313131;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.courses {
+    margin: 25px 0;
+}
+
+.courses h2 {
+    margin-bottom: 20px;
+}
+
+.courses .row:first-child {
+    margin-bottom: 12px;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .navbar-brand img {
+        width: 146px;
+        height: 60px;
+    }
+    
     .header {
-        background: linear-gradient(94.59deg, #A88237 2.39%, #FFE55B 97.66%);
+        background: linear-gradient(94.59deg, #FFE55B 2.39%, #A88237 97.66%);
+        border-radius: 0px 0px 70px 0px;
+        padding: 28px 63px;
+    }
+    
+    .navbar-brand {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .nav-link {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    
+    .nav-link:focus, .nav-link:hover {
+        color: #16161D;
+    }
+    
+    h1.text-body-emphasis {
+        font-size: 60px;
+        color: #FFFFFF!important;
+        line-height: 80px;
+        margin-bottom: 28px;
+    }
+    
+    .header p {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+    }
+    
+    .text-center {
+        margin-top: 118px;
+        color:#FFFFFF;
+    }
+    
+    .header-btn-group {
+        margin-bottom: 26px;
+        flex-direction: row;
+        width: unset;
+    }
+    
+    .btn-primary {
+        background: #16161D;
+        border-radius: 12px;
+        border-color: #16161D;
+    }
+    
+    .btn-outline-secondary {
+        border-radius: 12px;
+        border-color: #FFFFFF;
+        color: #FFFFFF;
+    }
+    
+    .btn-primary,
+    .btn-outline-secondary {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 25px;
+    }
+    
+    .header .btn-primary {
+        margin-right: 36px;
+    }
+    
+    .header .btn-outline-secondary {
+        font-weight: 500;
+    }
+    
+    .main {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .header .container-fluid {
+        padding: 0;
+    }
+    
+    .navbar {
+        padding: 0;
     }
 }
 
+/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .navbar-expand-lg .navbar-nav {
-        gap: 80px;
+    .about-us > .row {
+        flex-wrap: nowrap;
+    }
+
+    .main {
+        margin: 40px auto 0px;
+    }
+
+    .courses {
+        margin: 35px 0;
+    }
+    
+    .courses h2 {
+        margin-bottom: 30px;
+    }
+
+    .courses .row:first-child {
+        margin-bottom: 36px;
     }
 }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    h2 {
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 62px;
+    }
+
+    .about-us p {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 35px;
+        text-align: justify;
+    }
+
+    .about-us > .row div {
+        justify-content: center;
+    }
+
+    .rect-shape {
+        width: 438px;
+        height: 564px;
+        background: #E8D25E;
+        border-radius: 250px 250px 20px 20px;
+        position: relative;
+    }
+    
+    .rect-outline {
+        position: absolute;
+        width: 466px;
+        height: 564px;
+        border: 3px solid #A88237;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 250px 250px 20px 20px;
+        left: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .rect-outline img {
+        width: 413px;
+        height: 398px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
